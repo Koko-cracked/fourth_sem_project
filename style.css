@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://img.freepik.com/premium-photo/contemporary-fitness-center-interior-showcasing-sport-workout-equipment-modern-gym-with-crossfit-fitness-gear_893571-114.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: scroll; /* mathi tala garna milni */
+  }
+  
+  .login_panel {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto; 
+    background: #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .login_panel h1 {
+    color: #000000; 
+  }
+  
+  .login_panel p {
+    color: #000000; 
+  }
+  
+  .login_panel input[type="text"],
+  .login_panel input[type="password"],
+  .login_panel input[type="submit"] {
+    background-color: #ffffff; 
+    color: #000000; }
+  .login_panel input[type = "submit"]{
+    font-size: 20px;
+  }
+  
+  .avatar {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 20%;
+  }
+  
+  
+
+  
+  
+  
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    font-size: 40px;
+    animation: slideInDown 1s ease-in-out;
+  }
+  
+  form {
+    margin-top: 40px;
+    animation: slideInUp 1s ease-in-out;
+  }
+  
+  p {
+    margin: 0;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: box-shadow 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    box-shadow: 0 0 5px #333;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  .options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .options a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .options a:hover {
+    color: #555;
+  }
+  
